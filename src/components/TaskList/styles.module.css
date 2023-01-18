@@ -1,0 +1,27 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 4rem;
+  
+  font-size: 0.75rem;
+  font-weight: bold;
+  
+  color: var(--purple)
+}
+
+.header  h2 {
+  display: flex;
+  gap: 0.5rem;
+
+  color: var(--blue);
+}
+
+.header h2 div {
+  padding: 0.1rem 0.5rem;
+  border-radius: 999px;
+  background-color: var(--gray-400)
+}
+
+.header h2 div p{
+  color: var(--gray-200)
+}
