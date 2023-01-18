@@ -1,0 +1,75 @@
+.card {
+    width: 100%;
+    /* height:4.5rem; */
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: var(--gray-500);
+    color: var(--gray-100);
+
+    border: 1px solid var(--gray-400);
+    border-radius: 8px;
+
+    padding: 1rem;
+
+    margin-top: 1.5rem;
+    
+}
+
+.card div {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem
+}
+
+.card div p {
+  font-size: 0.875rem;
+  color: var(--gray-100);
+  line-height: 1.18rem;
+  margin-right: auto;
+}
+
+
+
+.checkboxContainer {
+  width: 1.125rem;
+  height: 1.125rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.checkboxSelected {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content:center;
+
+  background-color: var(--purple-dark);
+  border-radius: 999px;
+}
+
+.checkboxUnSelected {
+  width: 100%;
+  height: 100%;
+  border: 2px solid var(--blue);
+  border-radius: 999px
+  
+}
+
+
+.deleteTask {
+  all: unset;
+  color: var(--gray-300);
+
+  cursor: pointer;
+  transition: color 0.2s;
+}
+
+.deleteTask:hover {
+  color: var(--danger);
+}
