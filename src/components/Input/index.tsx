@@ -23,6 +23,7 @@ export function Input({ onNewTask }: InputProps) {
         placeholder="Adicione uma nova tarefa"
         onChange={(e) => setTitle(e.target.value)}
         value={title}
+        required
       />
       <button type="submit">
         Criar <PlusCircle size={16} />

@@ -10,7 +10,7 @@ interface Props {
 
 export function TaskCard({ task, onDelete, onCompleteTask }: Props) {
   return (
-    <div className={styles.card}>
+    <div className={task.isCompleted ? styles.cardCompleted : styles.card}>
       <div>
         <button
           className={styles.checkboxContainer}
@@ -24,7 +24,7 @@ export function TaskCard({ task, onDelete, onCompleteTask }: Props) {
             <div className={styles.checkboxUnSelected} />
           )}
         </button>
-        <p>{task.title}</p>
+        <p className={task.isCompleted ? styles.completed : ''}>{task.title}</p>
       </div>
       <button className={styles.deleteTask} onClick={() => onDelete(task.id)}>
         <Trash size={20} />
