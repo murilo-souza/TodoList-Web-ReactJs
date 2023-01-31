@@ -6,7 +6,7 @@
 
 
 <h2>Project</h2>
-<p>First Ignite curse challenge, create a ToDo list application</p>
+<p>First Ignite course challenge, create a ToDo list application</p>
 
 <h2>Stacks</h2>
 <ul>
