@@ -14,3 +14,13 @@
   <li><a href="https://www.typescriptlang.org/">Typescript</a></li>
   <li><a href="https://phosphoricons.com/">Phosphor Icons</a></li>
 </ul>
+
+<h2>Features</h2>
+<ul>
+  <li>Delete task</li>
+  <li>Complete task</li>
+  <li>Add task to list</li>
+</ul>
+
+<h2>Layout</h2>
+<p>To see the complet layout of the application, access the <a href="https://www.figma.com/file/cgXmogJOd6jmFlNrsEiDAG/ToDo-List-(Copy)?node-id=0%3A1&t=uVFMGUY9ibdrszwL-0">Link</a></p>
